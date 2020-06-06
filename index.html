@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+</head>
+<link rel="stylesheet" href="index.css">
+
+<body>
+
+    <h1> User Information </h1>
+
+    <form name="user-form">
+        First Name: <input type="text" name="firstName" /> 
+        <br />
+        <br />
+        Last Name: <input type="text" name="lastName" /> 
+        <br />
+        <br />
+        Age: <input type="text" name="age" /> 
+        <br />
+        <br />
+        Select Gender: 
+        Male <input type="radio" name="gender" value="Male" />
+        Female <input type="radio" name="gender" value="Female" />
+        <br />
+        <br />
+        Select Travel Destination:
+        <select name="city">
+            <option value="Arizona">Arizona</option>
+            <option value="Utah">Utah</option>
+            <option value="Idaho">Idaho</option>
+        </select>
+        <br />
+        <br />
+        Select Dietary Restrictions:
+        <br />
+        Vegetarian: <input type="checkbox" value="Vegetarian" name="restrictions" />
+        Kosher: <input type="checkbox" value="Kosher" name="restrictions" />
+        N/A: <input type="checkbox" value="N/A" name="restrictions" />
+        <br />
+        <br />
+
+        <button>Submit</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
